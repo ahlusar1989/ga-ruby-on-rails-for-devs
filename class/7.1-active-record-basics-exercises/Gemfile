@@ -24,7 +24,7 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails'
-  gem 'capybara'
+  gem 'capybara', '>= 1.1.2'
   gem 'ffaker'
   gem 'shoulda-matchers'
   gem 'fabrication'
